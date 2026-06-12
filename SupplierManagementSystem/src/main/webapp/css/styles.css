@@ -1,0 +1,31 @@
+/* Navbar styling */
+.navbar {
+    padding: 10px;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for menu items */
+.navbar-nav .nav-link:hover {
+    color: #f8b400 !important; /* Change color on hover */
+}
+
+/* Logout button styles */
+.btn-logout {
+    border: 2px solid white;  /* White border initially */
+    padding: 5px 15px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* Logout button hover effect */
+.btn-logout:hover {
+    background-color: red !important;
+    color: white !important;
+    border: 2px solid darkred; /* Darker red border */
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.5);
+}
